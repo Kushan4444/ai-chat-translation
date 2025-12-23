@@ -117,7 +117,7 @@ CREATE TABLE messages (
 );
 ```
 
-###Default Admin User Setup
+## Default Admin User Setup
 
 Before using the system, you must manually insert an admin user into the database.
 ```sql
