@@ -173,20 +173,26 @@ This project successfully demonstrates a chat application with AI-powered transl
 ---
 
 
+## Screenshots
+
 ### Login Page
-![Login Page](login.PNG)
+![Login Page](screenshots/1.png)
 
 ### User Login Page
-![User Login](User_login.PNG)
+![User Login](screenshots/user_login.png)
 
 ### Admin Login Page
-![Admin Login](Admin_login.PNG)
+![Admin Login](screenshots/admin_login.png)
 
 ### Chat Interface
-![Chat Interface](chat_interface.PNG)
+![Chat Interface](screenshots/chat_interface.png)
 
 ### Admin Dashboard
-![Admin Dashboard](admin_dashboard.PNG)
+![Admin Dashboard](screenshots/admin_dashboard.png)
+
+### Admin Message View
+![Admin Messages](screenshots/admin_message_view.png)
+
 
 ### Admin Message View
 ![Admin Messages](admin_message_view.PNG)
