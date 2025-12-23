@@ -1,0 +1,151 @@
+body{
+    background:#ece5dd;
+    font-family:sans-serif
+}
+
+
+
+.chat-box{
+    width:400px;
+    height:90vh;
+    margin:auto;
+    background:white;
+    display:flex;
+    flex-direction:column;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    
+}
+
+
+#messages{flex:1;
+    overflow:auto;
+    padding:10px
+}
+
+
+.bubble{
+    background:#25D366;
+    color:white;
+    padding:8px 12px;
+    border-radius:12px;
+    margin:5px;
+    max-width:70%;
+    width:fit-content;
+    margin-left:auto;
+
+    /* 🔥 THIS IS IMPORTANT */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+
+
+
+.input{
+    display:flex;
+    padding:10px
+}
+
+
+input{
+    flex:1;
+    border-radius:20px;
+    padding:6px
+}
+button{
+    background:#ff5f6d;
+    color:white;
+    border:none;
+    padding:8px;
+    border-radius: 20px;
+    width: 100px;
+    position: relative;
+    
+    
+}
+
+
+
+/* Admin Header */
+.chat-header{
+    background: #ff5f6d;
+    color:white;
+    padding:12px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Admin Message Container */
+.admin-msg{
+    margin-bottom:15px;
+}
+
+/* Sinhala Bubble (Admin) */
+.admin-bubble{
+    background:#DCF8C6;
+    color:#000;
+    margin-left:auto;
+    border-radius:15px 15px 0 15px;
+}
+
+/* Original Message Bubble */
+.original-bubble{
+    background:#e4e6eb;
+    color:#000;
+    margin-left:auto;
+    margin-top:5px;
+    border-radius:15px;
+    font-size:14px;
+}
+
+/* Toggle style */
+.original-toggle summary{
+    cursor:pointer;
+    font-size:12px;
+    color:#555;
+    text-align:right;
+    margin-top:4px;
+}
+
+/* Scrollbar clean */
+#messages::-webkit-scrollbar{
+    width:4px;
+}
+#messages::-webkit-scrollbar-thumb{
+    background:#ccc;
+}
+
+
+/* User select dropdown */
+.user-select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #f0f2f5;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* hover effect */
+.user-select:hover{
+    border-color: #25D366;
+}
+
+/* focus effect */
+.user-select:focus{
+    border-color: #25D366;
+    box-shadow: 0 0 4px rgba(37, 211, 102, 0.6);
+}
+
+.err{
+ color:red;
+ font-size:13px;
+ text-align:center;
+ margin:5px 0;
+}
