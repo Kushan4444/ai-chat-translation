@@ -117,6 +117,18 @@ CREATE TABLE messages (
 );
 ```
 
+###Default Admin User Setup
+
+Before using the system, you must manually insert an admin user into the database.
+```sql
+SQL Command
+INSERT INTO users (username, password, role)
+VALUES ('admin', 'admin123', 'admin');
+```
+Notes
+*The role must be set to admin
+*Only users with the admin role can access the admin panel
+*After inserting the admin user, you can log in to the admin page using the same admin username and password that were added to the database
 
 
 ## How the System Works
