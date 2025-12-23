@@ -115,8 +115,8 @@ CREATE TABLE messages (
   translated_message TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 
----
 
 
 ## How the System Works
