@@ -189,7 +189,7 @@ This project successfully demonstrates a chat application with AI-powered transl
 ![Chat Interface](screenshots/chat_interface.PNG)
 
 ### Admin Dashboard
-![Admin Dashboard](screenshorts/admin_dashboard.PNG)
+![Admin Dashboard](screenshots/admin_dashbord_view.PNG)
 
 ### Admin Message View
 ![Admin Messages](screenshots/admin_message_view.PNG)
