@@ -179,7 +179,7 @@ This project successfully demonstrates a chat application with AI-powered transl
 
 
 ### Login Page
-![Login Page](screenshorts/login.PNG)
+![Login Page](screenshots/login.PNG)
 
 ### User Login Page
 ![User Login](User_login.PNG)
