@@ -115,6 +115,20 @@ CREATE TABLE messages (
   translated_message TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+### Default Admin User Setup
+
+Before using the system, you must manually insert an admin user into the database.
+
+SQL Command
+INSERT INTO users (username, password, role)
+VALUES ('admin', 'admin123', 'admin');
+
+Note
+
+The role must be set to admin
+Only users with the admin role can log in to the admin panel
+Once the admin user is inserted into the database, the admin panel can be accessed by logging in with the inserted admin username and password.
 ```
 
 ---
